@@ -1,0 +1,10 @@
+//import base module
+@use "./base/base";
+@use "./base/typegerphy";
+@use "./abstract/colors";
+
+//import components module
+@use "./components/navbar";
+
+//import layout module
+@use "./layout/grid";

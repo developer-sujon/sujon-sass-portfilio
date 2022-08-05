@@ -13,37 +13,838 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!--  Application Main CSS -->
     <link rel="stylesheet" href="./src/app.css" />
 </head>
 
 <body>
-    <!-- nav bar start -->
-    <nav class="nav">
+    <!-- Navbar start -->
+    <nav class="nav" id="nav">
         <div class="nav__wrapper">
             <div class="nav__wrapper__logo">
-                <div class="nav__wrapper__logo__brand">Sujon</div>
+                <a href="#header" class="nav__wrapper__logo__brand">Sujon</a>
             </div>
-            <ul class="nav__wrapper__ul">
+            <ul class="nav__wrapper__ul ">
                 <li class="nav__wrapper__ul__li">
-                    <a href="/" class="nav__wrapper__ul__li__a active">Home</a>
+                    <a href="#header" class="nav__wrapper__ul__li__a active">Home</a>
                 </li>
                 <li class="nav__wrapper__ul__li">
-                    <a href="/about" class="nav__wrapper__ul__li__a">About</a>
+                    <a href="#about" class="nav__wrapper__ul__li__a">About</a>
                 </li>
                 <li class="nav__wrapper__ul__li">
-                    <a href="/experiance" class="nav__wrapper__ul__li__a">Experiance</a>
+                    <a href="#education" class="nav__wrapper__ul__li__a">Experiance</a>
                 </li>
                 <li class="nav__wrapper__ul__li">
-                    <a href="/project" class="nav__wrapper__ul__li__a">Project</a>
+                    <a href="#project" class="nav__wrapper__ul__li__a">Project</a>
                 </li>
                 <li class="nav__wrapper__ul__li">
-                    <a href="/blog" class="nav__wrapper__ul__li__a">Blogs</a>
+                    <a href="#blogs" class="nav__wrapper__ul__li__a">Blogs</a>
                 </li>
             </ul>
+            <div class="nav__wrapper__toggle">
+                <i class="bi bi-text-right"></i>
+            </div>
         </div>
     </nav>
-    <!-- nav bar end -->
+    <!-- Navbar End -->
+
+    <!-- Header Section Start -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-xs-12">
+                    <div class="header__data">
+                        <div class="header__data__contents">
+                            <div class="header__data__contents__top">
+                                Hi My Name Is
+                            </div>
+                            <div class="header__data__contents__heading">
+
+                            </div>
+                            <div class="header__data__contents__bottom">
+                                MERN Stack Developer
+                            </div>
+                            <div class="heaser__data__contents_link">
+                                <a href="./src/files/sujonCv.pdf" class="btn btn-default" target="_blank">Download
+                                    Cv</a> &nbsp;
+                                <button class="btn btn-dark open__modal">Hire Me</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Modal Section Start -->
+    <section class="modal" id="modal">
+        <div class="modal__wrapper">
+            <i class="bi bi-x modal__wrapper__close"></i>
+            <div class="modal__wrapper__images">
+                <img src="./src/images/bg/user.jpg" alt="user" class="modal__wrapper__images__img">
+            </div>
+            <div class="modal__wrapper__contents">
+                <h1 class="heading">Why Hire Me?</h1>
+                <p class="modal__wrapper__contents__text">
+                    Hard-working listing programmer with a flair for creating elegant solutions in the least amount of
+                    time. As a freelance programmer, I have created many professional websites for clients around the
+                    globe.ke love what we do and we do what our clients love & work with great clients all over the
+                    world to create thoughtful and purposeful websites.
+
+                </p>
+                <div class="modal__wrapper__contents__block">
+                    <span class="modal__wrapper__contents__block__left">Emial</span>
+                    <span class="modal__wrapper__contents__block__right">contact@sujon.com</span>
+                </div>
+                <div class="modal__wrapper__contents__block">
+                    <span class="modal__wrapper__contents__block__left">Phone</span>
+                    <span class="modal__wrapper__contents__block__right">+8801772-703036</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Section End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="about__images">
+                        <img src="./src/images/bg/user.jpg" alt="large img">
+                        <div class="about__images__small">
+                            <img src="./src/images/bg/user.jpg" alt="small img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="heading">Whi i'am?</div>
+                    <div class="about__info">
+                        <p class="about__info__text">
+                            Hard-working listing programmer with a flair for creating elegant solutions in the least
+                            amount of
+                            time. As a freelance programmer, I have created many professional websites for clients
+                            around the
+                            globe.ke love what we do and we do what our clients love & work with great clients all over
+                            the
+                            world to create thoughtful and purposeful websites.
+                        </p>
+                        <div class="about__info__block">
+                            <span class="about__info__block__left">
+                                Name
+                            </span>
+                            <span class="about__info__block__right">
+                                Mohammad Sujon
+                            </span>
+                        </div>
+                        <div class="about__info__block">
+                            <span class="about__info__block__left">
+                                Date Of Birth
+                            </span>
+                            <span class="about__info__block__right">
+                                16 Sep
+                            </span>
+                        </div>
+                        <div class="about__info__block">
+                            <span class="about__info__block__left">
+                                Nationality
+                            </span>
+                            <span class="about__info__block__right">
+                                Bangladesh
+                            </span>
+                        </div>
+                        <div class="about__info__socials">
+                            <a href="https://github.com/developer-sujon" class="about__info__socials__circle"
+                                target="_blank">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/developer-sujon" class="about__info__socials__circle"
+                                target="_blank">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/developer_sujon" class="about__info__socials__circle"
+                                target="_blank">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="https://facebook.com/developer.sujonbd" class="about__info__socials__circle"
+                                target="_blank">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Education Section Start -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h1 class="heading">Education</h1>
+                    <div class="row --row1">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="education__card">
+                                <h3 class="education__card__titile">
+                                    Diploma Softwer Engineering
+                                </h3>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__house">
+                                        <i class="bi bi-house-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        Meherpur College of Engineering and Technology
+                                    </span>
+                                </div>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__calendar">
+                                        <i class="bi bi-calendar-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        2020-2024
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="education__card">
+                                <h3 class="education__card__titile">
+                                    Diploma Softwer Engineering
+                                </h3>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__house">
+                                        <i class="bi bi-house-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        Meherpur College of Engineering and Technology
+                                    </span>
+                                </div>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__calendar">
+                                        <i class="bi bi-calendar-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        2020-2024
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="education__card">
+                                <h3 class="education__card__titile">
+                                    Diploma Softwer Engineering
+                                </h3>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__house">
+                                        <i class="bi bi-house-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        Meherpur College of Engineering and Technology
+                                    </span>
+                                </div>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__calendar">
+                                        <i class="bi bi-calendar-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        2020-2024
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="education__card">
+                                <h3 class="education__card__titile">
+                                    Diploma Softwer Engineering
+                                </h3>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__house">
+                                        <i class="bi bi-house-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        Meherpur College of Engineering and Technology
+                                    </span>
+                                </div>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__calendar">
+                                        <i class="bi bi-calendar-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        2020-2024
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h1 class="heading">Experiance</h1>
+                    <div class="row --row2">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="education__card">
+                                <h3 class="education__card__titile">
+                                    Diploma Softwer Engineering
+                                </h3>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__house">
+                                        <i class="bi bi-house-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        Meherpur College of Engineering and Technology
+                                    </span>
+                                </div>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__calendar">
+                                        <i class="bi bi-calendar-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        2020-2024
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="education__card">
+                                <h3 class="education__card__titile">
+                                    Diploma Softwer Engineering
+                                </h3>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__house">
+                                        <i class="bi bi-house-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        Meherpur College of Engineering and Technology
+                                    </span>
+                                </div>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__calendar">
+                                        <i class="bi bi-calendar-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        2020-2024
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="education__card">
+                                <h3 class="education__card__titile">
+                                    Diploma Softwer Engineering
+                                </h3>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__house">
+                                        <i class="bi bi-house-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        Meherpur College of Engineering and Technology
+                                    </span>
+                                </div>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__calendar">
+                                        <i class="bi bi-calendar-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        2020-2024
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="education__card">
+                                <h3 class="education__card__titile">
+                                    Diploma Softwer Engineering
+                                </h3>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__house">
+                                        <i class="bi bi-house-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        Meherpur College of Engineering and Technology
+                                    </span>
+                                </div>
+                                <div class="education__card__block">
+                                    <span class="education__card__block__left education__card__block__left__calendar">
+                                        <i class="bi bi-calendar-fill"></i>
+                                    </span>
+                                    <span class="education__card__block__right">
+                                        2020-2024
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education Section End -->
+
+    <!-- Project Section Start -->
+    <section class="project" id="project">
+        <div class="container">
+            <h1 class="heading">Project</h1>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="project__card">
+                        <div class="project__card__images">
+                            <img src="./src/images/projects/project1.jpg" alt="project1">
+                        </div>
+                        <div class="project__card__layer">
+                            <div class="project__card__layer__contents">
+                                <h3 class="project__card__layer__contents__title">Ecommarce Application</h3>
+                                <span class="project__card__layer__contents__tools">Node Js, Express Js, MongoDB, React
+                                    Js</span>
+                            </div>
+                            <div class="project__card__layer__link">
+                                <a href="javascript:void(0)">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="project__card">
+                        <div class="project__card__images">
+                            <img src="./src/images/projects/project1.jpg" alt="project1">
+                        </div>
+                        <div class="project__card__layer">
+                            <div class="project__card__layer__contents">
+                                <h3 class="project__card__layer__contents__title">Ecommarce Application</h3>
+                                <span class="project__card__layer__contents__tools">Node Js, Express Js, MongoDB, React
+                                    Js</span>
+                            </div>
+                            <div class="project__card__layer__link">
+                                <a href="javascript:void(0)">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="project__card">
+                        <div class="project__card__images">
+                            <img src="./src/images/projects/project1.jpg" alt="project1">
+                        </div>
+                        <div class="project__card__layer">
+                            <div class="project__card__layer__contents">
+                                <h3 class="project__card__layer__contents__title">Ecommarce Application</h3>
+                                <span class="project__card__layer__contents__tools">Node Js, Express Js, MongoDB, React
+                                    Js</span>
+                            </div>
+                            <div class="project__card__layer__link">
+                                <a href="javascript:void(0)">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="project__card">
+                        <div class="project__card__images">
+                            <img src="./src/images/projects/project1.jpg" alt="project1">
+                        </div>
+                        <div class="project__card__layer">
+                            <div class="project__card__layer__contents">
+                                <h3 class="project__card__layer__contents__title">Ecommarce Application</h3>
+                                <span class="project__card__layer__contents__tools">Node Js, Express Js, MongoDB, React
+                                    Js</span>
+                            </div>
+                            <div class="project__card__layer__link">
+                                <a href="javascript:void(0)">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section Start -->
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="skills__contents">
+                        <h1 class="skills__contents__heading">
+                            I have high skills in developing and programming
+                        </h1>
+                        <p class="skills__contents__message">
+                            I am working on a professional, visually sophisticated and technologically proficient,
+                            responsive and multi-functional personal portfolio template Shane.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h1 class="heading">my skills</h1>
+                    <div class="skills__block">
+                        <span class="skills__block__exp">6 years</span>
+                        <span class="skills__block__list">html, css &amp; javascript</span>
+                    </div>
+                    <div class="skills__block">
+                        <span class="skills__block__exp">6 years</span>
+                        <span class="skills__block__list">html, css &amp; javascript</span>
+                    </div>
+                    <div class="skills__block">
+                        <span class="skills__block__exp">6 years</span>
+                        <span class="skills__block__list">html, css &amp; javascript</span>
+                    </div>
+                    <div class="skills__block">
+                        <span class="skills__block__exp">6 years</span>
+                        <span class="skills__block__list">html, css &amp; javascript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section End -->
+
+    <!-- Testimonials Section Start -->
+
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h1 class="heading">what customers are saying?</h1>
+            <div class="row">
+                <div class="col-xlg-8 col-lg-8 col-md-6 col-sm-12 py-0">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12 p-0">
+                            <div class="testimonials__card">
+                                <div class="testimonials__card__icon">
+                                    <i class="bi bi-chat-dots"></i>
+                                </div>
+                                <div class="testimonials__card__user">
+                                    <div class="testimonials__card__user__image">
+                                        <img src="./src/images/testimonials/user1.jpg" alt="user image">
+                                    </div>
+                                    <div class="testimonials__card__user__details">
+                                        <span class="testimonials__card__user__details__name">saddiq hussain</span>
+                                        <span class="testimonials__card__user__details__country">united kingdom</span>
+                                        <span class="testimonials__card__user__details__rating">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <p class="testimonials__card__message">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsam deleniti quas
+                                    corrupti quibusdam unde provident illum, repellendus enim facere.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xlg-6 col-lg-6 col-md-12">
+                            <div class="testimonials__card">
+                                <div class="testimonials__card__icon">
+                                    <i class="bi bi-chat-dots"></i>
+                                </div>
+                                <div class="testimonials__card__user">
+                                    <div class="testimonials__card__user__image">
+                                        <img src="./src/images/testimonials/user2.jpg" alt="user image">
+                                    </div>
+                                    <div class="testimonials__card__user__details">
+                                        <span class="testimonials__card__user__details__name">json roy</span>
+                                        <span class="testimonials__card__user__details__country">ireland</span>
+                                        <span class="testimonials__card__user__details__rating">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <p class="testimonials__card__message">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsam deleniti quas
+                                    corrupti quibusdam unde provident illum, repellendus enim facere.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xlg-6 col-lg-6 col-md-12">
+                            <div class="testimonials__card">
+                                <div class="testimonials__card__icon">
+                                    <i class="bi bi-chat-dots"></i>
+                                </div>
+                                <div class="testimonials__card__user">
+                                    <div class="testimonials__card__user__image">
+                                        <img src="./src/images/testimonials/user3.jpg" alt="user image">
+                                    </div>
+                                    <div class="testimonials__card__user__details">
+                                        <span class="testimonials__card__user__details__name">mustafa kamal</span>
+                                        <span class="testimonials__card__user__details__country">turkey</span>
+                                        <span class="testimonials__card__user__details__rating">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <p class="testimonials__card__message">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsam deleniti quas
+                                    corrupti quibusdam unde provident illum, repellendus enim facere.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xlg-6 col-lg-6 col-md-12">
+                            <div class="testimonials__card">
+                                <div class="testimonials__card__icon">
+                                    <i class="bi bi-chat-dots"></i>
+                                </div>
+                                <div class="testimonials__card__user">
+                                    <div class="testimonials__card__user__image">
+                                        <img src="./src/images/testimonials/user4.jpg" alt="user image">
+                                    </div>
+                                    <div class="testimonials__card__user__details">
+                                        <span class="testimonials__card__user__details__name">muhammad ali</span>
+                                        <span class="testimonials__card__user__details__country">pakistan</span>
+                                        <span class="testimonials__card__user__details__rating">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <p class="testimonials__card__message">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsam deleniti quas
+                                    corrupti quibusdam unde provident illum, repellendus enim facere.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xlg-4 col-lg-4 col-md-6 col-sm-12 order-1">
+                    <div class="testimonials__right">
+                        <h1 class="testimonials__right__heading">That's the thing i'm motivited</h1>
+                        <div class="testimonials__right__images">
+                            <div class="testimonials__right__images__block">
+                                <img src="./src/images/testimonials/user1.jpg" alt="user image">
+                            </div>
+
+                            <div class="testimonials__right__images__block">
+                                <img src="./src/images/testimonials/user2.jpg" alt="user image">
+                            </div>
+
+                            <div class="testimonials__right__images__block">
+                                <img src="./src/images/testimonials/user3.jpg" alt="user image">
+                            </div>
+
+                            <div class="testimonials__right__images__block">
+                                <img src="./src/images/testimonials/user4.jpg" alt="user image">
+                            </div>
+
+                            <div class="testimonials__right__images__block">
+                                <img src="./src/images/testimonials/user5.jpg" alt="user image">
+                            </div>
+
+                            <div class="testimonials__right__images__block">
+                                <img src="./src/images/testimonials/user6.jpg" alt="user image">
+                            </div>
+
+                            <span class="testimonials__right__images__clients">250,00+</span>
+                        </div>
+                        <div class="testimonials__right__rating">
+                            <span class="testimonials__right__rating__avg">4.9</span>
+                            <span class="testimonials__right__rating__stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="testimonials__right__rating__total">(4,582)</span>
+                        </div>
+                        <h3 class="testimonials__right__link">
+                            <a href="#">Let's talk about your next project?</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section End -->
+
+    <!-- Blogs Section Start -->
+    <section class="blogs" id="blogs">
+        <div class="container">
+            <h1 class="heading">my blogs</h1>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="blogs__card">
+                        <div class="blogs__card__image">
+                            <img src="./src/images/posts/tailwindcss.png" alt="post image">
+                            <div class="blogs__card__image__layer">
+                                <span class="blogs__card__image__layer__category">frontend</span>
+                            </div>
+                        </div>
+                        <div class="blogs__card__author">
+                            <div class="blogs__card__author__image">
+                                <img src="./src/images/bg/user.jpg" alt="author image">
+                            </div>
+                            <div class="blogs__card__author__details">
+                                <span class="blogs__card__author__details__name">muhammad asif</span>
+                                <span class="blogs__card__author__details__date">
+                                    <i class="bi bi-clock"></i>
+                                    <span class="blogs__card__author__details__date__time">15 jan 2022</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="blogs__card__body">
+                            <h3 class="blogs__card__body__title">
+                                <a href="#">Tailwindcss the complete guide for beginners</a>
+                            </h3>
+                            <a href="#" class="blogs__card__body__link">read more →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="blogs__card">
+                        <div class="blogs__card__image">
+                            <img src="./src/images/posts/tailwindcss.png" alt="post image">
+                            <div class="blogs__card__image__layer">
+                                <span class="blogs__card__image__layer__category">frontend</span>
+                            </div>
+                        </div>
+                        <div class="blogs__card__author">
+                            <div class="blogs__card__author__image">
+                                <img src="./src/images/bg/user.jpg" alt="author image">
+                            </div>
+                            <div class="blogs__card__author__details">
+                                <span class="blogs__card__author__details__name">muhammad asif</span>
+                                <span class="blogs__card__author__details__date">
+                                    <i class="bi bi-clock"></i>
+                                    <span class="blogs__card__author__details__date__time">15 jan 2022</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="blogs__card__body">
+                            <h3 class="blogs__card__body__title">
+                                <a href="#">Tailwindcss the complete guide for beginners</a>
+                            </h3>
+                            <a href="#" class="blogs__card__body__link">read more →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="blogs__card">
+                        <div class="blogs__card__image">
+                            <img src="./src/images/posts/tailwindcss.png" alt="post image">
+                            <div class="blogs__card__image__layer">
+                                <span class="blogs__card__image__layer__category">frontend</span>
+                            </div>
+                        </div>
+                        <div class="blogs__card__author">
+                            <div class="blogs__card__author__image">
+                                <img src="./src/images/bg/user.jpg" alt="author image">
+                            </div>
+                            <div class="blogs__card__author__details">
+                                <span class="blogs__card__author__details__name">muhammad asif</span>
+                                <span class="blogs__card__author__details__date">
+                                    <i class="bi bi-clock"></i>
+                                    <span class="blogs__card__author__details__date__time">15 jan 2022</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="blogs__card__body">
+                            <h3 class="blogs__card__body__title">
+                                <a href="#">Tailwindcss the complete guide for beginners</a>
+                            </h3>
+                            <a href="#" class="blogs__card__body__link">read more →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="blogs__card">
+                        <div class="blogs__card__image">
+                            <img src="./src/images/posts/tailwindcss.png" alt="post image">
+                            <div class="blogs__card__image__layer">
+                                <span class="blogs__card__image__layer__category">frontend</span>
+                            </div>
+                        </div>
+                        <div class="blogs__card__author">
+                            <div class="blogs__card__author__image">
+                                <img src="./src/images/bg/user.jpg" alt="author image">
+                            </div>
+                            <div class="blogs__card__author__details">
+                                <span class="blogs__card__author__details__name">muhammad asif</span>
+                                <span class="blogs__card__author__details__date">
+                                    <i class="bi bi-clock"></i>
+                                    <span class="blogs__card__author__details__date__time">15 jan 2022</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="blogs__card__body">
+                            <h3 class="blogs__card__body__title">
+                                <a href="#">Tailwindcss the complete guide for beginners</a>
+                            </h3>
+                            <a href="#" class="blogs__card__body__link">read more →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Blogs Section End -->
+
+    <!-- Footer Section Start -->
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 col-xs-12">
+                    <div class="footer__image">
+                        <img src="./src/images/bg/user.jpg" alt="developer image">
+                        <span class="footer__image__label">Freelance Available</span>
+                    </div>
+                    <p class="footer__copyright">Copyright © <span class="year">2022</span> by <span
+                            class="footer__copyright--name">Muhammad Sujon</span>, All rights reserved</p>
+                </div>
+                <div class="col-md-7 col-sm-12 col-xs-12">
+                    <form action="" class="form">
+                        <h1 class="heading">contact me</h1>
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12 col-xs-12">
+                                <input type="text" class="form__control" placeholder="Name...">
+                            </div>
+                            <div class="col-md-5 col-sm-12 col-xs-12">
+                                <input type="email" class="form__control" placeholder="Email...">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <input type="text" class="form__control" placeholder="Subject...">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <textarea name="" class="form__control" cols="30" rows="10"
+                                    placeholder="Your message..."></textarea>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <input type="submit" value="send email" class="btn btn-dark">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+
+
+    <script src="./src/main.js"></script>
 </body>
 
 </html>

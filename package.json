@@ -7,7 +7,7 @@
   "author": "developer-sujon",
   "license": "MIT",
   "scripts": {
-    "sass": "sass src/sass/app.scss src/app.css --watch --no-source-map"
+    "sass": "sass src/sass/app.scss src/app.css --watch"
   },
   "devDependencies": {
     "sass": "^1.54.1"

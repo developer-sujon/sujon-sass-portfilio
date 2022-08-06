@@ -5,6 +5,11 @@
   background: linear-gradient(to right, $purple-50 25%, $white 50%);
   @include responsive(md) {
     margin-top: 7rem;
+    padding: 4rem 0;
+  }
+  @include responsive(lg) {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   &__images {
     width: 30rem;

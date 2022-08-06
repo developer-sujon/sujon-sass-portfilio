@@ -1,6 +1,13 @@
 @use "../abstract" as *;
 .skills {
   padding: $padding-y;
+  @include responsive(lg) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  @include responsive(md) {
+    padding: 4rem 0;
+  }
   &__contents {
     width: 90%;
     &__heading {
@@ -8,6 +15,9 @@
       font-weight: 800;
       line-height: 5rem;
       color: #000;
+      @include responsive(md) {
+        font-size: 3rem;
+      }
     }
     &__message {
       margin-top: 3rem;

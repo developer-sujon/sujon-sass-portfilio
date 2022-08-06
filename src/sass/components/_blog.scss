@@ -1,6 +1,13 @@
 @use "../abstract" as *;
 .blogs {
   padding: $padding-y;
+  @include responsive(lg) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  @include responsive(md) {
+    padding: 4rem 0;
+  }
   &__card {
     width: 100%;
     border-radius: 0.5rem;

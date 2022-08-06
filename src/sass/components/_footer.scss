@@ -2,6 +2,13 @@
 
 .footer {
   padding: $padding-y;
+  @include responsive(lg) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  @include responsive(md) {
+    padding: 4rem 0;
+  }
   background: linear-gradient(to top, $white 50%, $purple-50 50%);
   &__image {
     width: 18rem;

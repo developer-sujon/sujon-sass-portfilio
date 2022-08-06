@@ -1,6 +1,13 @@
 @use "../abstract" as *;
 .education {
   padding: $padding-y;
+  @include responsive(lg) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  @include responsive(md) {
+    padding: 4rem 0;
+  }
   &__card {
     width: 100%;
     background: linear-gradient(110deg, $white 50%, $purple-50 50%);
